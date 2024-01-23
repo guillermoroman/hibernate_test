@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.example.HibernateTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.065 s <<< FAILURE! -- in com.example.HibernateTest
+com.example.HibernateTest.delete -- Time elapsed: 1.012 s <<< ERROR!
+java.lang.IllegalArgumentException: attempt to create delete event with null entity
+	at org.hibernate.event.spi.DeleteEvent.<init>(DeleteEvent.java:31)
+	at org.hibernate.internal.SessionImpl.delete(SessionImpl.java:911)
+	at org.hibernate.internal.SessionImpl.remove(SessionImpl.java:2397)
+	at com.example.HibernateTest.delete(HibernateTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

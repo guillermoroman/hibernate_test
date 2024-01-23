@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.HibernateTest" time="1.065" tests="4" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro/target/test-classes:/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro/target/classes:/Users/guillermoroman/.m2/repository/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final.jar:/Users/guillermoroman/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/guillermoroman/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/guillermoroman/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/Users/guillermoroman/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/guillermoroman/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/Users/guillermoroman/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/guillermoroman/.m2/repository/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.jar:/Users/guillermoroman/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/guillermoroman/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/Users/guillermoroman/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar:/Users/guillermoroman/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar:/Users/guillermoroman/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar:/Users/guillermoroman/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar:/Users/guillermoroman/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/Users/guillermoroman/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/guillermoroman/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/Users/guillermoroman/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/guillermoroman/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar:/Users/guillermoroman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/guillermoroman/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/guillermoroman/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/guillermoroman/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="/Users/guillermoroman/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro/target/surefire/surefirebooter-20240118161126957_3.jar /Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro/target/surefire 2024-01-18T16-11-26_903-jvmRun1 surefire-20240118161126957_1tmp surefire_0-20240118161126957_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro/target/test-classes:/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro/target/classes:/Users/guillermoroman/.m2/repository/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final.jar:/Users/guillermoroman/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/guillermoroman/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/guillermoroman/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/Users/guillermoroman/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/guillermoroman/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/Users/guillermoroman/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/guillermoroman/.m2/repository/net/bytebuddy/byte-buddy/1.14.7/byte-buddy-1.14.7.jar:/Users/guillermoroman/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/guillermoroman/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/Users/guillermoroman/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.2/jaxb-runtime-4.0.2.jar:/Users/guillermoroman/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.2/jaxb-core-4.0.2.jar:/Users/guillermoroman/.m2/repository/org/eclipse/angus/angus-activation/2.0.0/angus-activation-2.0.0.jar:/Users/guillermoroman/.m2/repository/org/glassfish/jaxb/txw2/4.0.2/txw2-4.0.2.jar:/Users/guillermoroman/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/Users/guillermoroman/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/guillermoroman/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/Users/guillermoroman/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/Users/guillermoroman/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar:/Users/guillermoroman/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/guillermoroman/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/guillermoroman/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/guillermoroman/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/guillermoroman"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="/Users/guillermoroman/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro/target/surefire/surefirebooter-20240118161126957_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.1+12-29"/>
+    <property name="user.name" value="guillermoroman"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/guillermoroman/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/v4/_bfcx2d92_z_g6_v7l4x09wr0000gn/T/"/>
+    <property name="idea.version" value="2023.3.2"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="/Users/guillermoroman/Desktop/ow hibernate git/hibernate/01. Introducción a Hibernate/hibernate-intro"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/guillermoroman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="delete" classname="com.example.HibernateTest" time="1.012">
+    <error message="attempt to create delete event with null entity" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: attempt to create delete event with null entity
+	at org.hibernate.event.spi.DeleteEvent.<init>(DeleteEvent.java:31)
+	at org.hibernate.internal.SessionImpl.delete(SessionImpl.java:911)
+	at org.hibernate.internal.SessionImpl.remove(SessionImpl.java:2397)
+	at com.example.HibernateTest.delete(HibernateTest.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+]]></error>
+    <system-out><![CDATA[Hibernate: 
+    drop table if exists Employee
+Hibernate: 
+    create table Employee (
+        age integer,
+        id bigint not null auto_increment,
+        name varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.age,
+        e1_0.name 
+    from
+        Employee e1_0 
+    where
+        e1_0.id=?
+]]></system-out>
+    <system-err><![CDATA[Jan 18, 2024 4:11:27 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 6.4.1.Final
+Jan 18, 2024 4:11:27 PM org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+Jan 18, 2024 4:11:27 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+Jan 18, 2024 4:11:27 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+Jan 18, 2024 4:11:27 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/hibernate_clase?createDatabaseIfNotExist=true]
+Jan 18, 2024 4:11:27 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+Jan 18, 2024 4:11:27 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Jan 18, 2024 4:11:27 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 50 (min=1)
+Jan 18, 2024 4:11:27 PM org.hibernate.dialect.Dialect checkVersion
+WARN: HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+Jan 18, 2024 4:11:28 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Jan 18, 2024 4:11:28 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@209f3887] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Jan 18, 2024 4:11:28 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@280fafd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+]]></system-err>
+  </testcase>
+  <testcase name="update" classname="com.example.HibernateTest" time="0.023">
+    <system-out><![CDATA[Hibernate: 
+    select
+        e1_0.id,
+        e1_0.age,
+        e1_0.name 
+    from
+        Employee e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    /* insert for
+        com.example.model.Employee */insert 
+    into
+        Employee (age, name) 
+    values
+        (?, ?)
+Employee{id=1, name='employee1', age=24}
+]]></system-out>
+  </testcase>
+  <testcase name="persist" classname="com.example.HibernateTest" time="0.005">
+    <system-out><![CDATA[Hibernate: 
+    /* insert for
+        com.example.model.Employee */insert 
+    into
+        Employee (age, name) 
+    values
+        (?, ?)
+Hibernate: 
+    /* insert for
+        com.example.model.Employee */insert 
+    into
+        Employee (age, name) 
+    values
+        (?, ?)
+]]></system-out>
+  </testcase>
+  <testcase name="retrieve" classname="com.example.HibernateTest" time="0.007">
+    <system-out><![CDATA[Hibernate: 
+    /* insert for
+        com.example.model.Employee */insert 
+    into
+        Employee (age, name) 
+    values
+        (?, ?)
+Hibernate: 
+    /* insert for
+        com.example.model.Employee */insert 
+    into
+        Employee (age, name) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.age,
+        e1_0.name 
+    from
+        Employee e1_0 
+    where
+        e1_0.id=?
+Employee{id=1, name='employee1', age=24}
+]]></system-out>
+  </testcase>
+</testsuite>
